@@ -1,6 +1,6 @@
 import csv 
 total_area = 0.0
-with open('D:\Python\jadi\github\windows_dimensions.csv', 'r') as file:
+with open('windows_dimensions.csv', 'r') as file:
     reader = csv.DictReader(file)
     for row in reader:
         length = float(row['length'])
